@@ -1,0 +1,12 @@
+{
+  "ID": "CEA0FDFC6D3B4085823D60DC76F28844",
+  "ActionKeyword": "*",
+  "Name": "Outlook Contacts",
+  "Description": "Hello World CSharp",
+  "Author": "jihunroh",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/Wox-launcher/Wox",
+  "ExecuteFileName": "Wox.Plugin.OutlookContacts.dll",
+  "IcoPath": "Images\\app.png"
+}
