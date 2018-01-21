@@ -2,11 +2,11 @@
   "ID": "D8536AC686C2431E8ED91B1B6E43FE21",
   "ActionKeyword": "*",
   "Name": "Outlook Contacts",
-  "Description": "Hello World CSharp",
+  "Description": "Outlook Contacts Search Plugin for Wox launcher",
   "Author": "jihunroh",
   "Version": "1.0.0",
   "Language": "csharp",
-  "Website": "https://github.com/Wox-launcher/Wox",
+  "Website": "http://jihunroh.kr/Wox.Plugin.OutlookContacts/",
   "ExecuteFileName": "Wox.Plugin.OutlookContacts.dll",
   "IcoPath": "Images\\app.png"
 }
