@@ -12,7 +12,7 @@ set -e
 git clone -b jekyll-src https://${GH_TOKEN}@github.com/jihunroh/jihunroh.github.io.git ../jekyll-src
 cp -R ../jekyll-src/_layouts/ ../jekyll-src/_includes/ ../jekyll-src/_config.yml ../jekyll-src/_config-project.yml docs/
 cd docs
-bundle exec jekyll build --profile
+bundle exec jekyll build --profile --config _config.yml,_config-project.yml
 
 # cleanup
 rm -rf ../jihunroh.github.io.master
