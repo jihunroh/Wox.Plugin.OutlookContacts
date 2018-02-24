@@ -12,7 +12,7 @@ install:
 
 script:
   - chmod +x deploy.sh
-  - "./deploy.sh"
+  - "./docs/deploy.sh"
 
 branches:
   only:
