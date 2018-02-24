@@ -4,6 +4,8 @@ cache: bundler
 rvm:
 - 2.4.2
 
+install: true
+
 script:
   - chmod +x deploy.sh
   - "./deploy.sh"
