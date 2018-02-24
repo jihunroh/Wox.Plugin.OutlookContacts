@@ -4,10 +4,6 @@ cache: bundler
 rvm:
 - 2.4.2
 
-install:
-  # Install Jekyll and dependencies
-  - bundle install
-
 script:
   - chmod +x deploy.sh
   - "./deploy.sh"
