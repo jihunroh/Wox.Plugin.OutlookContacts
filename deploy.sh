@@ -10,7 +10,7 @@ fi
 set -e
 
 git clone -b jekyll-src https://${GH_TOKEN}@github.com/jihunroh/jihunroh.github.io.git ../jekyll-src
-cp -R ../jekyll-src/_layouts/ ../jekyll-src/_includes/ ../jekyll-src/_config.yml ../jekyll-src/Gemfile docs/
+cp -R ../jekyll-src/_layouts/ ../jekyll-src/_includes/ ../jekyll-src/_config.yml docs/
 cd docs
 bundle exec jekyll build --profile
 
