@@ -11,7 +11,7 @@ install:
   - bundle install
 
 script:
-  - chmod +x deploy.sh
+  - chmod +x ./docs/deploy.sh
   - "./docs/deploy.sh"
 
 branches:
