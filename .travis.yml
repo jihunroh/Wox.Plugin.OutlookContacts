@@ -3,8 +3,12 @@ language: ruby
 cache: bundler
 rvm:
 - 2.4.2
+gemfile:
+- docs/Gemfile
 
-install: true
+install:
+  # Install Jekyll and dependencies
+  - bundle install
 
 script:
   - chmod +x deploy.sh
