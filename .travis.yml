@@ -3,16 +3,12 @@ language: ruby
 cache: bundler
 rvm:
 - 2.4.2
-gemfile:
-- docs/Gemfile
 
 install:
-  # Install Jekyll and dependencies
-  - bundle install
+  - true
 
 script:
-  - chmod +x ./docs/deploy.sh
-  - "./docs/deploy.sh"
+  - curl -X POST -d '' https://api.netlify.com/build_hooks/${NETLIFY_BUILD_HOOK}
 
 branches:
   only:
