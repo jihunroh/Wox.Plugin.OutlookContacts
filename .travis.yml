@@ -1,8 +1,5 @@
 sudo: false
-language: ruby
-cache: bundler
-rvm:
-- 2.4.2
+language: generic
 
 install:
   - true
@@ -12,4 +9,4 @@ script:
 
 branches:
   only:
-  - master
+  - gh-pages
