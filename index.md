@@ -1,6 +1,7 @@
 ---
 layout: page-project
 title: Wox.Plugin.OutlookContacts
+project: Wox.Plugin.OutlookContacts
 comment: true
 ---
 [Wox Launcher](http://www.getwox.com/)에서 입력한 이름을 아웃룩 연락처에서 찾아 전화번호를 바로 안내해주는 플러그인이다. C#으로 만들었다.
