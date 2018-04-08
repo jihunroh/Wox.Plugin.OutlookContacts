@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-project
 title: Wox.Plugin.OutlookContacts
 comment: true
 ---
